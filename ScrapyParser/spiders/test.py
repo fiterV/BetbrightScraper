@@ -39,6 +39,7 @@ class MySpider(BaseSpider):
             item['id'] = id
             item['participants']=participants
             item['countOfParticipants'] = len(participants)
+            item['odds']='SP'
             yield item
 
     def parse(self, response):

@@ -17,4 +17,5 @@ class ScrapyparserItem(scrapy.Item):
     time = scrapy.Field()
     participants = scrapy.Field()
     countOfParticipants = scrapy.Field()
+    odds = scrapy.Field()
 
