@@ -30,8 +30,7 @@ class MySpider(BaseSpider):
             numbers = [c.getText() for c in horsesParentSoup.findChildren('div', {'class': 'cloth-number'})]
             odds = [c['id'][14:] for c in horsesParentSoup.findChildren('li', {'id': re.compile(r'previous_odds_[\d]+')})]
 
-            participants = list(zip(participantNames, numbers, odds))
-            participants = list(set(participants))
+            participants = list(set(zip(participantNames, numbers, odds)))
             participants = sorted(participants, key=lambda x: int(x[1]))
 
             item = ScrapyparserItem()
@@ -44,9 +43,8 @@ class MySpider(BaseSpider):
 
     def parse(self, response):
         sel = Selector(response)
-        items = []
-        x = sel.xpath('//table[@class="racing"]/tr/td/a[@class!="event_time "]/@href')
-        for i in x:
+        links = sel.xpath('//table[@class="racing"]/tr/td/a[@class!="event_time "]/@href')
+        for i in links:
             href = i.extract()
             if 'international' in href:
                 yield scrapy.Request(href, callback=self.parse_race)
