@@ -12,12 +12,11 @@ class ScrapyparserItem(scrapy.Item):
     # define the fields for your item here like:
     # name = scrapy.Field()
 
-    trackName = scrapy.Field()
+    raceName = scrapy.Field()
     raceId = scrapy.Field()
-    participantId = scrapy.Field()
-
-    time = scrapy.Field()
     participantName = scrapy.Field()
+    participantId = scrapy.Field()
     clothNumber = scrapy.Field()
+    time = scrapy.Field()
     odds = scrapy.Field()
 

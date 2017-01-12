@@ -36,7 +36,7 @@ class MySpider(BaseSpider):
             for x in participants:
                 item = ScrapyparserItem()
                 item['time']=time
-                item['trackName'] = trackName
+                item['raceName'] = trackName
                 item['raceId'] = id
                 item['participantName'] = x[0]
                 item['clothNumber'] = x[1]

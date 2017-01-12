@@ -35,3 +35,48 @@ clothNumber,odds,participantId,raceId,trackName,time,participantName
 7,SP,3061360517,4807002,Turfway Park,23:44,Frost Or Frippery
 8,SP,3061360523,4807002,Turfway Park,23:44,Crash Gate
 9,SP,3061360529,4807002,Turfway Park,23:44,Devadutt
+odds,participantId,time,raceName,clothNumber,participantName,raceId
+SP,3061360502,23:44,Turfway Park,1,Rose's Valenwine,4807002
+SP,3061360504,23:44,Turfway Park,2,Mr. Song,4807002
+SP,3061360506,23:44,Turfway Park,3,Lucky Warrior,4807002
+SP,3061360507,23:44,Turfway Park,4,Kilted Cowboy,4807002
+SP,3061360509,23:44,Turfway Park,5,Inanewyorkminute,4807002
+SP,3061360512,23:44,Turfway Park,6,Sky Fire,4807002
+SP,3061360517,23:44,Turfway Park,7,Frost Or Frippery,4807002
+SP,3061360523,23:44,Turfway Park,8,Crash Gate,4807002
+SP,3061360529,23:44,Turfway Park,9,Devadutt,4807002
+SP,3061358496,23:54,Penn National,1,Smarty Maddy,4807000
+SP,3061358499,23:54,Penn National,2,Bold N Talented,4807000
+SP,3061358502,23:54,Penn National,3,Sweet Candy,4807000
+SP,3061358505,23:54,Penn National,4,Ligia Elena,4807000
+SP,3061358507,23:54,Penn National,5,Setting The Line,4807000
+SP,3061358510,23:54,Penn National,6,Kalamitty,4807000
+SP,3061358513,23:54,Penn National,7,Annies Revenge,4807000
+SP,3061358516,23:54,Penn National,8,Zipline,4807000
+SP,3061358520,23:54,Penn National,9,Sophie Station,4807000
+SP,3061362431,23:45,Golden Gate Fields,1,Medicine Gal,4807016
+SP,3061362439,23:45,Golden Gate Fields,2,Khalaya,4807016
+SP,3061362446,23:45,Golden Gate Fields,3,Croix Du Soleil,4807016
+SP,3061362453,23:45,Golden Gate Fields,4,Tiki Torch,4807016
+SP,3061362460,23:45,Golden Gate Fields,5,Annisquam,4807016
+SP,3061362466,23:45,Golden Gate Fields,6,Handful Of Pearls,4807016
+SP,3061362469,23:45,Golden Gate Fields,7,Never Ends,4807016
+SP,3061362471,23:45,Golden Gate Fields,8,Tizfit,4807016
+odds,time,clothNumber,participantId,raceName,participantName,raceId
+SP,23:54,1,3061358496,Penn National,Smarty Maddy,4807000
+SP,23:54,2,3061358499,Penn National,Bold N Talented,4807000
+SP,23:54,3,3061358502,Penn National,Sweet Candy,4807000
+SP,23:54,4,3061358505,Penn National,Ligia Elena,4807000
+SP,23:54,5,3061358507,Penn National,Setting The Line,4807000
+SP,23:54,6,3061358510,Penn National,Kalamitty,4807000
+SP,23:54,7,3061358513,Penn National,Annies Revenge,4807000
+SP,23:54,8,3061358516,Penn National,Zipline,4807000
+SP,23:54,9,3061358520,Penn National,Sophie Station,4807000
+SP,23:45,1,3061362431,Golden Gate Fields,Medicine Gal,4807016
+SP,23:45,2,3061362439,Golden Gate Fields,Khalaya,4807016
+SP,23:45,3,3061362446,Golden Gate Fields,Croix Du Soleil,4807016
+SP,23:45,4,3061362453,Golden Gate Fields,Tiki Torch,4807016
+SP,23:45,5,3061362460,Golden Gate Fields,Annisquam,4807016
+SP,23:45,6,3061362466,Golden Gate Fields,Handful Of Pearls,4807016
+SP,23:45,7,3061362469,Golden Gate Fields,Never Ends,4807016
+SP,23:45,8,3061362471,Golden Gate Fields,Tizfit,4807016
