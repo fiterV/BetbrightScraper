@@ -33,15 +33,16 @@ class MySpider(BaseSpider):
             participants = list(set(zip(participantNames, numbers, odds)))
             participants = sorted(participants, key=lambda x: int(x[1]))
 
-            item = ScrapyparserItem()
-            item['time']=time
-            item['trackName'] = trackName
-            item['id'] = id
-            item['participants']=participants
-            item['countOfParticipants'] = len(participants)
-            item['odds']='SP'
-            yield item
-
+            for x in participants:
+                item = ScrapyparserItem()
+                item['time']=time
+                item['trackName'] = trackName
+                item['raceId'] = id
+                item['participantName'] = x[0]
+                item['clothNumber'] = x[1]
+                item['participantId'] = x[2]
+                item['odds']='SP'
+                yield item
     def parse(self, response):
         sel = Selector(response)
         links = sel.xpath('//table[@class="racing"]/tr/td/a[@class!="event_time "]/@href')
